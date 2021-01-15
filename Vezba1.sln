@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vezba1", "Vezba1\Vezba1.csproj", "{9147E82D-BCBF-487A-A9D4-A05198F22D7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradeBook.Test", "GradeBook.Test\GradeBook.Test.csproj", "{8776362B-E38C-4A33-B0BA-FE220D302263}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9147E82D-BCBF-487A-A9D4-A05198F22D7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9147E82D-BCBF-487A-A9D4-A05198F22D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9147E82D-BCBF-487A-A9D4-A05198F22D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9147E82D-BCBF-487A-A9D4-A05198F22D7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8776362B-E38C-4A33-B0BA-FE220D302263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8776362B-E38C-4A33-B0BA-FE220D302263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8776362B-E38C-4A33-B0BA-FE220D302263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8776362B-E38C-4A33-B0BA-FE220D302263}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A58083A-D7D7-42A8-B2E9-94B4F049398F}
+	EndGlobalSection
+EndGlobal
