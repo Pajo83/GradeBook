@@ -15,14 +15,35 @@ namespace GradeBook
 
         public override void AddGrade(double grade)
         {
-            
-           var writer = File.AppendText($"{Name}.txt");
-            writer.WriteLine(grade);
+
+            using (var writer = File.AppendText($"{Name}.txt"))
+            {
+                writer.WriteLine(grade);
+                if (GradeAdded != null)
+                {
+                    GradeAdded(this, new EventArgs());
+                }
+            }
+
         }
 
         public override Statistics GetStatistics()
         {
-            throw new NotImplementedException();
+            var result = new Statistics();
+
+            using (var reader = File.OpenText($"{Name}.txt"))
+            {
+                var line = reader.ReadLine();
+                while (line != null)
+                {
+                    var number = double.Parse(line);
+                    result.Add(number);
+                    line = reader.ReadLine();
+                }
+
+            }
+
+            return result;
         }
     }
 }
